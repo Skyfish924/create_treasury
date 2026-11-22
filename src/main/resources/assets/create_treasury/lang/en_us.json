@@ -1,0 +1,52 @@
+{
+  "creativetab.treasury.main": "Create: Treasury",
+
+  "item.create_treasury.1_dollar_bill": "1 Dollar Bill",
+  "item.create_treasury.2_dollar_bill": "2 Dollar Bill",
+  "item.create_treasury.5_dollar_bill": "5 Dollar Bill",
+  "item.create_treasury.10_dollar_bill": "10 Dollar Bill",
+  "item.create_treasury.20_dollar_bill": "20 Dollar Bill",
+  "item.create_treasury.50_dollar_bill": "50 Dollar Bill",
+  "item.create_treasury.100_dollar_bill": "100 Dollar Bill",
+
+  "item.create_treasury.treated_paper": "Treated Paper",
+  "item.create_treasury.red_treated_paper": "Red Dyed Treated Paper",
+  "item.create_treasury.orange_treated_paper": "Orange Dyed Treated Paper",
+  "item.create_treasury.yellow_treated_paper": "Yellow Dyed Treated Paper",
+  "item.create_treasury.lime_treated_paper": "Lime Dyed Treated Paper",
+  "item.create_treasury.green_treated_paper": "Green Dyed Treated Paper",
+  "item.create_treasury.cyan_treated_paper": "Cyan Dyed Treated Paper",
+  "item.create_treasury.light_blue_treated_paper": "Light Blue Dyed Treated Paper",
+  "item.create_treasury.blue_treated_paper": "Blue Dyed Treated Paper",
+  "item.create_treasury.purple_treated_paper": "Purple Dyed Treated Paper",
+  "item.create_treasury.magenta_treated_paper": "Magenta Dyed Treated Paper",
+  "item.create_treasury.pink_treated_paper": "Pink Dyed Treated Paper",
+  "item.create_treasury.white_treated_paper": "White Dyed Treated Paper",
+  "item.create_treasury.light_gray_treated_paper": "Light Gray Dyed Treated Paper",
+  "item.create_treasury.gray_treated_paper": "Gray Dyed Treated Paper",
+  "item.create_treasury.black_treated_paper": "Black Dyed Treated Paper",
+  "item.create_treasury.brown_treated_paper": "Brown Dyed Treated Paper",
+
+  "item.create_treasury.ink_bucket": "Ink Bucket",
+
+  "block.create_treasury.money_printer": "Money Printer",
+
+  "fluid_type.create_treasury.ink_type": "Ink",
+
+  "advancement.create_treasury.root": "Create: Treasury",
+  "advancement.create_treasury.root.desc": "Here Be Money",
+  "advancement.create_treasury.treated_paper": "Paper Trail",
+  "advancement.create_treasury.treated_paper.desc": "Craft Treated Paper",
+  "advancement.create_treasury.inkredible": "Inkredible!",
+  "advancement.create_treasury.inkredible.desc": "Press Ink Sacs into Ink, the blood of every banknote",
+  "advancement.create_treasury.printing_money": "Printing Money",
+  "advancement.create_treasury.printing_money.desc": "Craft a Money Printer and get the money flowing",
+  "advancement.create_treasury.first_dollar": "First of Many",
+  "advancement.create_treasury.first_dollar.desc": "Print your first banknote",
+  "advancement.create_treasury.100_dollars": "Now We're Talking!",
+  "advancement.create_treasury.100_dollars.desc": "Print a 100 Dollar Bill",
+  "advancement.create_treasury.100_band": "Showing Off",
+  "advancement.create_treasury.100_band.desc": "Obtain a Band of 100 Dollar Bills (10000 dollars!)",
+  "advancement.create_treasury.full_inv": "Absolutely Loaded",
+  "advancement.create_treasury.full_inv.desc": "Have a full inventory of 100s"
+}

@@ -1,0 +1,21 @@
+{
+  "values": [
+    "create_treasury:treated_paper",
+    "create_treasury:red_treated_paper",
+    "create_treasury:orange_treated_paper",
+    "create_treasury:yellow_treated_paper",
+    "create_treasury:lime_treated_paper",
+    "create_treasury:green_treated_paper",
+    "create_treasury:cyan_treated_paper",
+    "create_treasury:light_blue_treated_paper",
+    "create_treasury:blue_treated_paper",
+    "create_treasury:purple_treated_paper",
+    "create_treasury:magenta_treated_paper",
+    "create_treasury:pink_treated_paper",
+    "create_treasury:white_treated_paper",
+    "create_treasury:light_gray_treated_paper",
+    "create_treasury:gray_treated_paper",
+    "create_treasury:black_treated_paper",
+    "create_treasury:brown_treated_paper"
+  ]
+}

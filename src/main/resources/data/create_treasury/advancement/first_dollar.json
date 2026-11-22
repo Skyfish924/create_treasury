@@ -1,0 +1,35 @@
+{
+  "parent": "create_treasury:printing_money",
+  "display": {
+    "icon": {
+      "id": "create_treasury:1_dollar_bill",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.create_treasury.first_dollar"
+    },
+    "description": {
+      "translate": "advancement.create_treasury.first_dollar.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create_treasury:1_dollar_bill"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

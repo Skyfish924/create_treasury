@@ -1,0 +1,35 @@
+{
+  "parent": "create_treasury:root",
+  "display": {
+    "icon": {
+      "id": "create_treasury:money_printer",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.create_treasury.printing_money"
+    },
+    "description": {
+      "translate": "advancement.create_treasury.printing_money.desc"
+    },
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create_treasury:money_printer"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

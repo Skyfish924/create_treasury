@@ -1,0 +1,29 @@
+{
+  "parent": "create_treasury:100_dollars",
+  "display": {
+    "icon": {
+      "id": "create_treasury:100_dollar_bill",
+      "count": 1
+    },
+    "title": {
+      "translate": "advancement.create_treasury.full_inv"
+    },
+    "description": {
+      "translate": "advancement.create_treasury.full_inv.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "full_inventory": {
+      "trigger": "create_treasury:full_inventory"
+    }
+  },
+  "requirements": [
+    [
+      "full_inventory"
+    ]
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "create_treasury:root",
+  "display": {
+    "icon": {
+      "id": "create_treasury:ink_bucket",
+      "count": 1
+    },
+    "title": "Inkredible!",
+    "description": "Obtain an Ink Bucket, the blood of every banknote",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create_treasury:ink_bucket"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

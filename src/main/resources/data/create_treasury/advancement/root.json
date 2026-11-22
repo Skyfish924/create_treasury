@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "create_treasury:textures/gui/advancements.png",
+    "description": {
+      "translate": "advancement.create_treasury.root.desc"
+    },
+    "icon": {
+      "count": 1,
+      "id": "create_treasury:1_dollar_bill"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancement.create_treasury.root"
+    }
+  },
+  "requirements": [
+    [
+      "0"
+    ]
+  ]
+}

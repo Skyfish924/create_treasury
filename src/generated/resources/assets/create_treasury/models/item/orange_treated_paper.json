@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "create_treasury:item/treated_papers/orange_treated_paper"
+  }
+}
