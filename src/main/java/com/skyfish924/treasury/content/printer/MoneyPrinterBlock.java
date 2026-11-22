@@ -25,13 +25,29 @@ public class MoneyPrinterBlock extends KineticBlock implements IBE<MoneyPrinterB
         super(props);
         registerDefaultState(
                 defaultBlockState()
-                        .setValue(BlockStateProperties.AXIS, Direction.Axis.Y)
+                        .setValue(BlockStateProperties.HORIZONTAL_FACING, Direction.NORTH)
         );
     }
 
     @Override
+    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+        builder.add(BlockStateProperties.HORIZONTAL_FACING);
+    }
+
+    @Override
+    public BlockState getStateForPlacement(BlockPlaceContext context) {
+        Direction facing = context.getHorizontalDirection().getOpposite();
+
+        if (context.getPlayer() != null && context.getPlayer().isShiftKeyDown()) {
+            facing = facing.getOpposite();
+        }
+
+        return defaultBlockState().setValue(BlockStateProperties.HORIZONTAL_FACING, facing);
+    }
+
+    @Override
     public Direction.Axis getRotationAxis(BlockState state) {
-        return state.getValue(BlockStateProperties.AXIS);
+        return Direction.Axis.Y;
     }
 
     @Override
@@ -42,20 +58,6 @@ public class MoneyPrinterBlock extends KineticBlock implements IBE<MoneyPrinterB
     @Override
     public BlockEntityType<? extends MoneyPrinterBlockEntity> getBlockEntityType() {
         return AllBlockEntities.MONEY_PRINTER_BLOCK_ENTITY.get();
-    }
-
-    @Override
-    protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(BlockStateProperties.AXIS);
-    }
-
-    @Override
-    public BlockState getStateForPlacement(BlockPlaceContext context) {
-        return defaultBlockState()
-                .setValue(
-                        BlockStateProperties.AXIS,
-                        context.getClickedFace().getAxis()
-                );
     }
 
     @Override
